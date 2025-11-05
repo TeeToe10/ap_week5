@@ -39,7 +39,7 @@ every_third_word = info.split()[::3]
 # c. Reverse the positions of the words, but keep the characters in each word in the same order.
 reversed_word_positions = info.split()[::-1]
 reversed_word_positions = ' '.join(reversed_word_positions)
-print(reversed_wordpositions)
+print(reversed_word_positions)
 
 # Problem Set 3: String Methods
 # Upper & Lower:
@@ -66,11 +66,21 @@ print(sentence3)
 
 # Problem Set 4: String Properties and Advanced Operations
 # Repetition:
+word_to_repeat = 'Iteration'
+repeated_word = word_to_repeat * 7
+print(f"Repeated word: {repeated_word}\n")
 # Concatenate the word "Iteration" 7 times.
 
 # Word Search:
 # Check if the word "moonlight" appears in the quote: "With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
+quote = 'With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde'
+word_to_find = 'moonlight'
 
 # Length and Count:
 # a. Calculate the number of characters (including spaces and punctuation) in the word/phrase: "Supercalifragilisticexpialidocious".
 # b. Count the number of times the letter 'i' appears in the same word/phrase.
+phrase = 'Supercalifragilisticexpialidocious'
+length_of_phrase = len(phrase)
+print(f"Length of the phrase: {length_of_phrase}\n")
+count_of_i = phrase.count('i')
+print(f"The letter 'i' appears {count_of_i} times in the phrase.\n")
